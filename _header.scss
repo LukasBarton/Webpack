@@ -1,0 +1,33 @@
+.main-header{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  width: 100vw;
+  padding: 0;
+  color: #000000;
+  a{
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+  }
+  .nav-links {
+    color: white;
+    font-size: large;
+    display: flex;
+    list-style: none;
+
+    .nav-link {
+
+      a {
+        margin: .2rem;
+        padding: 1rem .5rem;
+      }
+      a:hover {
+        background: rgba(255,255,255,0.2);
+      }
+    }
+  }
+
+}
